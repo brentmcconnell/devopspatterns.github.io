@@ -1,6 +1,6 @@
 ---
-title: Pair Programming
-subtitle: Just the two of us, building castles in the clouds 
+title: Establish Coding Standards
+subtitle: Raise the bar a little higher
 layout: pattern
 type: develop
 excerpt_separator: <!--more-->
