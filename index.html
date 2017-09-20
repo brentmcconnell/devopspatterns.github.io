@@ -4,6 +4,13 @@ title: Designing DevOps
 subtitle: Common Design Patterns and Their Application
 ---
 
+// Front page Content
+{% for pattern in site.collections %}
+  {% if pattern.label != 'posts' %}
+    <a href="{{ pattern.url }}">{{ pattern.title }}</a>
+  {% endif %}
+{% endfor %}
+
 <div class="posts-list">
   {% for post in paginator.posts %}
   <article class="post-preview">
