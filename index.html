@@ -7,7 +7,7 @@ subtitle: Common Design Patterns and Their Application
 <!-- Front page Content -->
 {% for pattern in site.collections %}
   {% if pattern.label != 'posts' %}
-    <img href="/img/{{pattern.img}}"
+    <img src="/img/{{pattern.img}}">
     <a href="{{ pattern.url }}">{{ pattern.title }}</a>
   {% endif %}
 {% endfor %}
