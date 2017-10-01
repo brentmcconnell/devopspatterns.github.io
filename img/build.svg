@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="165"
+   height="165"
+   viewBox="0 0 165 165"
+   id="svg4337"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="build.svg">
+  <defs
+     id="defs4339" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="103.07758"
+     inkscape:cy="117.85714"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1145"
+     inkscape:window-height="974"
+     inkscape:window-x="695"
+     inkscape:window-y="69"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata4342">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-887.36216)">
+    <rect
+       ry="18.160233"
+       y="890.93359"
+       x="2.8571448"
+       height="160"
+       width="160"
+       id="rect4306"
+       style="opacity:1;fill:#9c27b0;fill-opacity:1;stroke:none;stroke-width:1.972;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       style="fill:#f2f2f2"
+       inkscape:connector-curvature="0"
+       id="develop_icon"
+       d="m 43.357141,1016.9336 0,-92.00004 57.999999,0 21,20 0,72.00004 -78.999999,0 z m 71.999999,-65.00004 -19.999999,-20 -46,0 0,79.00004 65.999999,0 0,-59.00004 z m -38.999999,19 -20,0 0,-26 20,0 0,26 z m -7,-19 -6,0 0,13 6,0 0,-13 z m 0,45 7,0 0,7.00004 -20,0 0,-7.00004 7,0 0,-13 -7,0 0,-6 13,0 0,19 z m 26,-32 5.999999,0 0,6 -18.999999,0 0,-6 6,0 0,-13 -6,0 0,-7 13,0 0,20 z m 5.999999,39.00004 -18.999999,0 0,-26.00004 18.999999,0 0,26.00004 z m -5.999999,-20.00004 -7,0 0,13 7,0 0,-13 z"
+       class="pattern_icon" />
+  </g>
+</svg>
