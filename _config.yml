@@ -184,39 +184,46 @@ collections:
     url: /plan
     description: This is the description of the build category pattern
     title: Plan
+    img: plan.png
   develop:
     output: true
     permalink: /develop/:path
     url: /develop
     description: This is the description of the build category pattern
     title: Develop
+    img: develop.png
   build:
     output: true
     permalink: /build/:path
     url: /build
     description: This is the description of the build category pattern
     title: Build
+    img: build.png
   test:
     output: true
     permalink: /test/:path
     url: /test
     description: This is the description of the test category pattern
     title: Test
+    img: test.png
   release:
     output: true
     permalink: /release/:path
     url: /release
     description: This is the description of the release category pattern
     title: Release
+    img: release.png
   deploy:
     output: true
     permalink: /deploy/:path
     url: /deploy
     description: This is the description of the deploy category pattern
     title: Deploy
+    img: deploy.png
   operate:
     output: true
     permalink: /operate/:path
     url: /operate
     description: This is the description of the operate category pattern
     title: Operate
+    img: operate.png
