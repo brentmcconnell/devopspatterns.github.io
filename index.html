@@ -5,6 +5,7 @@ subtitle: Common Design Patterns and Their Application
 ---
 
 <!-- Front page Content -->
+<!--
 {% for pattern in site.collections %}
   {% if pattern.label != 'posts' %}
   <div class="row pattern_label">
@@ -17,11 +18,20 @@ subtitle: Common Design Patterns and Their Application
   </div>  
   {% endif %}
 {% endfor %}
+-->
 
-{% assign categories = (site.collections | sort: 'sequence') %}
-{% for category in site.categories %}
+{% assign cats = (site.collections | sort: 'sequence') %}
+{% for category in cats %}
   {% if category.title %}
     {{ category.title | escape }}
+    <div class="row pattern_label">
+      <div class="col-md-4">
+        <img src="/img/{{category.img}}">
+      </div>
+      <div class="col-md8">
+        <a href="{{ category.url }}">{{ category.title }}</a>
+      </div>
+    </div>  
   {% endif %}
 {% endfor %}
 
