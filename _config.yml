@@ -185,6 +185,7 @@ collections:
     description: This is the description of the build category pattern
     title: Plan
     img: plan.svg
+    sequence: 1
   develop:
     output: true
     permalink: /develop/:path
@@ -192,6 +193,7 @@ collections:
     description: This is the description of the build category pattern
     title: Develop
     img: develop.svg
+    sequence: 2
   build:
     output: true
     permalink: /build/:path
@@ -199,6 +201,7 @@ collections:
     description: This is the description of the build category pattern
     title: Build
     img: build.svg
+    sequence: 3
   test:
     output: true
     permalink: /test/:path
@@ -206,6 +209,7 @@ collections:
     description: This is the description of the test category pattern
     title: Test
     img: test.svg
+    sequence: 4
   release:
     output: true
     permalink: /release/:path
@@ -213,6 +217,7 @@ collections:
     description: This is the description of the release category pattern
     title: Release
     img: release.svg
+    sequence: 5
   deploy:
     output: true
     permalink: /deploy/:path
@@ -220,6 +225,7 @@ collections:
     description: This is the description of the deploy category pattern
     title: Deploy
     img: deploy.svg
+    sequence: 6
   operate:
     output: true
     permalink: /operate/:path
@@ -227,3 +233,4 @@ collections:
     description: This is the description of the operate category pattern
     title: Operate
     img: operate.svg
+    sequence: 7
