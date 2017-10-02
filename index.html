@@ -18,10 +18,10 @@ subtitle: Common Design Patterns and Their Application
   {% endif %}
 {% endfor %}
 
-{% assign collections = (site.collections | sort: 'sequence') %}
-{% for collection in site.collections %}
-  {% if collection.title %}
-    {{ collection.title | escape }}
+{% assign categories = (site.collections | sort: 'sequence') %}
+{% for category in site.categories %}
+  {% if category.title %}
+    {{ category.title | escape }}
   {% endif %}
 {% endfor %}
 
