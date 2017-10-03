@@ -14,7 +14,7 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: Designing DevOps
+title: DevOps Patterns
 
 # Short description of your site
 description: Patterns for DevOps
@@ -32,7 +32,7 @@ navbar-links:
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
 #avatar: "/img/devops.png"
-avatar: "/img/build.png"
+#avatar: "/img/build.png"
 
 # --- Footer options --- #
 
@@ -182,7 +182,7 @@ collections:
     output: true
     permalink: /plan/:path
     url: /plan
-    description: This is the description of the build category pattern
+    description: Plan patterns encompass patterns that help teams to create and manage projects.  Ultimately, the planning stage of a project determines how smoothly your projects move through organizational processes into deployment and end user adoption, which is why it's so important to spend time implementing planning patterns that streamline your organizational, technical and business processes.
     title: Plan
     img: plan.svg
     sequence: 1
@@ -190,7 +190,7 @@ collections:
     output: true
     permalink: /develop/:path
     url: /develop
-    description: This is the description of the build category pattern
+    description: You will find that development of new software artifacts and maintenance of existing software is easier to implement by following patterns that have evolved over years.  Understanding development patterns within the Devops context will help your team to effectively produce software artifacts that adhere to the highest levels of quality. 
     title: Develop
     img: develop.svg
     sequence: 2

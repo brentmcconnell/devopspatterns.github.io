@@ -3,6 +3,7 @@ title: Simplify Onboarding
 subtitle: Make it simple, but significant 
 layout: pattern
 type: build
+show-avatar: no
 excerpt_separator: <!--more-->
 ---
 For teams using the automation.

@@ -3,6 +3,7 @@ title: Autocreate Build Jobs
 subtitle: Don't wait for opportunity, create it 
 layout: pattern
 type: build
+show-avatar: no 
 excerpt_separator: <!--more-->
 ---
 Use GitHub Org or Multi-branch

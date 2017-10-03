@@ -1,6 +1,7 @@
 ---
 layout: page
 type: release
+show-avatar: no
 title: Release Design Patterns
 ---
 {% for entry in site.release %}

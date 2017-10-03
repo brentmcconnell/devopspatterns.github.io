@@ -1,37 +1,32 @@
 ---
 layout: page
-title: Designing DevOps
+title: DevOps Patterns
 subtitle: Common Design Patterns and Their Application
 ---
 
-<!-- Front page Content -->
-<!--
-{% for pattern in site.collections %}
-  {% if pattern.label != 'posts' %}
-  <div class="row pattern_label">
-    <div class="col-md-4">
-      <img src="/img/{{pattern.img}}">
-    </div>
-    <div class="col-md8">
-      <a href="{{ pattern.url }}">{{ pattern.title }}</a>
-    </div>
-  </div>  
-  {% endif %}
-{% endfor %}
--->
 
 {% assign cats = (site.collections | sort: 'sequence') %}
 {% for category in cats %}
   {% if category.title %}
-    {{ category.title | escape }}
-    <div class="row pattern_label">
-      <div class="col-md-4">
-        <img src="/img/{{category.img}}">
+    <div class="row pattern-label">
+      <div class="col-md-2 align-middle">
+        <a href="{{ category.url }}">
+          <img class="center-block" src="/img/{{category.img}}">
+        </a>
+        <!--<img width=64 src="/img/{{category.img}}">-->
       </div>
-      <div class="col-md8">
-        <a href="{{ category.url }}">{{ category.title }}</a>
+      <div class="col-md-10">
+        <h3>
+          <a href="{{ category.url }}">
+            {{ category.title }}
+          </a>
+        </h3>
+        <span>
+          {{category.description | escape}}
+        </span>
       </div>
     </div>  
+    <hr class="shadow-line">
   {% endif %}
 {% endfor %}
 

@@ -37,7 +37,7 @@ blockquote p:first-child {
   margin-top: 0;
 }
 hr.small {
-  max-width: 100px;
+  max-width: 0px;
   margin: 15px auto;
   border-width: 4px;
   border-color: inherit;
@@ -272,6 +272,10 @@ img {
     border: 1px solid #eaeaea;
     border-width: 0 1px 1px;
   }
+
+  /*.pattern-label img { 
+    width: 100%;
+  }*/
 }
 
 /* --- Footer --- */
@@ -433,7 +437,7 @@ footer .theme-by {
   transition: opacity 1s linear;
 }
 .intro-header .page-heading {
-  text-align: center;
+  /*text-align: center;*/
 }
 .intro-header.big-img .page-heading,
 .intro-header.big-img .post-heading {
@@ -670,4 +674,49 @@ td.gutter {
 
 .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
     max-height: 500px;
+}
+
+.vertical-align {
+  display: flex;
+  align-items: center;
+}
+
+hr.double-line {
+  border-top: 3px double #8c8b8b;
+}
+
+hr.shadow-line {
+  height: 5px;
+  border: 0;
+  margin-left:10px;
+  margin-right:10px;
+  box-shadow: 0 10px 3px -10px #8c8b8b inset;
+}
+
+.pattern-label {
+  padding-bottom: 15px;
+}
+
+.pattern-label img {
+  padding-top: 20px;
+}
+
+.page-heading img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  margin-top:25px;
+}
+
+.page-heading h1 {
+  position: relative;
+  top: 18px;
+}
+
+.page-heading .pattern-image {
+  padding-left: 0px;
+}
+
+.page-heading .pattern-title {
+  padding-left: 0px;
 }

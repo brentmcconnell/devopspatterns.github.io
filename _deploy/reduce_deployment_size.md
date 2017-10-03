@@ -3,6 +3,7 @@ title: More Frequent and Smaller Releases
 subtitle: Happiness consists in frequent repetition of pleasure 
 layout: pattern
 type: deploy
+show-avatar: no
 excerpt_separator: <!--more-->
 ---
 Deploying to production more frequently actually reduces the risk of release when done properly, simply because the amount of change in each deployment is smaller. When each deployment consists of tens of lines of code or a few configuration settings, it becomes much easier to perform root cause analysis and restore service in the case of an incident. Furthermore, because we practice the deployment process so frequently, we’re forced to simplify and automate it which further reduces risk.

@@ -1,6 +1,7 @@
 ---
 layout: page
 type: test
+show-avatar: no
 title: Test Design Patterns
 ---
 {% for entry in site.test %}

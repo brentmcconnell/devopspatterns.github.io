@@ -1,6 +1,7 @@
 ---
 layout: page
 type: plan
+show-avatar: no
 title: Plan Design Patterns
 ---
 {% for entry in site.plan %}

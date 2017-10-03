@@ -1,6 +1,7 @@
 ---
 layout: page
 type: deploy
+show-avatar: no
 title: Deploy Design Patterns
 ---
 {% for entry in site.deploy %}

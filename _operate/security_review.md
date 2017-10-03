@@ -3,6 +3,7 @@ title: Security Review
 subtitle: Safety first is safety always 
 layout: pattern
 type: release
+show-avatar: no
 excerpt_separator: <!--more-->
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut dolor eget enim sollicitudin rhoncus quis eget nibh. In sed nulla vitae dui lacinia sodales. In cursus pellentesque risus id finibus. Morbi ullamcorper odio non elit pulvinar, sit amet fermentum lorem dignissim. Donec et mauris vel neque varius interdum sit amet sit amet leo. Donec commodo condimentum molestie. <!--more-->Fusce eget pellentesque tortor, in dictum nisl. Nulla sit amet mollis nulla. Maecenas sem augue, pulvinar vel sapien in, maximus vulputate leo. Praesent sem massa, condimentum bibendum orci sed, tristique pharetra neque. Sed semper semper arcu, a mollis justo ultricies aliquam. Etiam eget tempor dolor. In mauris ipsum, vulputate non nibh sed, commodo rhoncus felis. Pellentesque maximus nisi tortor, a ornare lacus facilisis quis. Etiam condimentum auctor commodo. Interdum et malesuada fames ac ante ipsum primis in faucibus.

@@ -1,6 +1,7 @@
 ---
 layout: page
 type: develop
+show-avatar: no
 title: Develop Design Patterns
 ---
 {% for entry in site.develop %}

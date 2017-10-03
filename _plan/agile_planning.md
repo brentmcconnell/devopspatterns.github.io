@@ -3,6 +3,7 @@ title: Agile Methodologies
 subtitle: Stay committed in your decisions but flexible in approach
 layout: pattern
 type: plan
+show-avatar: no
 excerpt_separator: <!--more-->
 ---
 Standups, Retros, Sprint Planning.

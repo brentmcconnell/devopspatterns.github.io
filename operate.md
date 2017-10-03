@@ -1,6 +1,7 @@
 ---
 layout: page
 type: operate
+show-avatar: no
 title: Operate Design Patterns
 ---
 {% for entry in site.operate %}

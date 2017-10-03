@@ -3,6 +3,7 @@ title: Decouple Services
 subtitle: We started with a simple hello but ended with a complicated goodbye 
 layout: pattern
 type: deploy
+show-avatar: no
 excerpt_separator: <!--more-->
 ---
 Our goal is to architect our systems such that we can release individual changes (including database changes) independently, rather than having to orchestrate big-bang releases due to tight coupling between multiple different systems. This typically requires building versioned APIs and implementing patterns such as [circuit breaker](https://martinfowler.com/bliki/CircuitBreaker.html).
