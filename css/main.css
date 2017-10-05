@@ -26,7 +26,8 @@ a {
 }
 a:hover,
 a:focus {
-  color: #8BC34A;
+  /*color: #8BC34A;*/
+  color: #bbb;
   text-decoration: none;
 }
 blockquote {
@@ -259,7 +260,8 @@ img {
 
   /* Brent changes top color of dropdown menu */
   .navbar-custom .nav .navlinks-container:hover {
-    background: #8BC34A;
+    /*background: #8BC34A;*/
+    background: #bbb;
   }
   .navbar-custom .nav .navlinks-container:hover .navlinks-children {
     display: block;
@@ -720,3 +722,9 @@ hr.shadow-line {
 .page-heading .pattern-title {
   padding-left: 0px;
 }
+
+
+a:link    { color: #c00 }  
+a:visited { color: #0c0 }  
+a:hover   { color: #00c }  
+a:active  { color: #ccc }  
